@@ -1,0 +1,135 @@
+/*Limpar formatações padrão*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Montserrat", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*
+**** Layout ****
+*/
+#area-cabecalho {
+	background-color: #FF7500;
+	padding: 15px;
+	text-align: left;
+	width: 100%;
+	height: 100%;
+}
+
+#area-foto{
+	padding: 10px;
+	display: inline-block;
+	text-align: left;
+	background-color: none;
+	background-image: none;
+}
+
+#area-pessoal{
+	display: inline-block;
+	padding-left: 12px;
+	vertical-align: top;
+	margin-top: 64px;
+} 
+
+#area-experiencias {
+	width: 660px;
+	display: block;
+	float: left;
+}
+
+#area-lateral {
+	width: 600px;
+	float: right;
+	display: block;
+}
+
+.topicos {
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+/*
+**** Formatações do menu ****
+*/
+
+#lista-topo {
+	list-style-type:none;
+	margin-left: 0;;
+}
+
+ul {
+	margin-left: 20px;
+	list-style-type:disc;
+}
+
+li{
+	padding: 6px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #f7b600;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+	color: black;
+	background: #922AC8;
+	text-decoration: none;
+}
+
+/*
+**** Formatações em geral ****
+*/
+h1 {
+	color: #4e4e4e;
+	font-family: "Montserrat", Helvetica, sans-serif;
+	font-size: 2.5em;
+}
+
+h2 {
+	font-family: "Montserrat", Helvetica, sans-serif;
+	color: black;
+	border-bottom: 1px solid #922AC8;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+h3.area-topo{
+	font-family: "Montserrat", Helvetica, sans-serif;
+	color: white;
+}
+
+h2.area-lateral{
+	color: black;
+	background: #f7b600;
+	padding: 6px;
+	border-bottom: none;
+}
+
+.branco {
+	color: white;
+}
+
+.checked {
+	color: #f7b600;
+  }
